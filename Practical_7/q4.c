@@ -1,5 +1,5 @@
 /*
-Write a program in C for the subtraction of two matrices.
+Write a program in C for the addition of two matrices.
 */
 #include <stdio.h>
 
@@ -27,11 +27,11 @@ int main(){
 	
 	for (i = 0; i < row; ++i){
 		for (j = 0; j < col; ++j){
-			ans[i][j] = mat_2[i][j] - mat_1[i][j];
+			ans[i][j] = mat_2[i][j] + mat_1[i][j];
 		}
 	}
 
-	printf("Ans Matrix  ( Mat_1 - Mat_2 ): \n");
+	printf("Ans Matrix ( Mat_1 + Mat_2 ): \n");
 	for (i = 0; i < row; ++i){
 		printf("[ ");
 		for (j = 0; j < col; ++j){

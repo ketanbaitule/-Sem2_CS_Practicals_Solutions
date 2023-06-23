@@ -31,7 +31,7 @@ int main(){
 		}
 	}
 
-	printf("Ans Matrix  ( Mat_1 - Mat_2 ): \n");
+	printf("Ans Matrix ( Mat_1 - Mat_2 ): \n");
 	for (i = 0; i < row; ++i){
 		printf("[ ");
 		for (j = 0; j < col; ++j){
