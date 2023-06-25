@@ -25,10 +25,10 @@ int main(){
 		middle = (low + high)/2;
 		if (array[middle] < search )
 		{
-			high = middle;
+			low = middle;
 		}else if (array[middle] > search )
 		{
-			low = middle;
+			high = middle;
 		}else{
 			isFound = 1;
 			break;
