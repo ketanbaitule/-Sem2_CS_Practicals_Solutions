@@ -25,15 +25,15 @@ int main(){
 		middle = (low + high)/2;
 		if (array[middle] < search )
 		{
-			low = middle;
+			low = middle + 1;
 		}else if (array[middle] > search )
 		{
-			high = middle;
+			high = middle - 1;
 		}else{
 			isFound = 1;
 			break;
 		}
-	}while(low<high);
+	}while(low<=high);
 
 	if (isFound == 1)
 	{
